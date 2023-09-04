@@ -1,0 +1,21 @@
+Subarray and contribution related problem.
+
+1. Finding the sum of all subarray of an array.
+   Link : https://leetcode.com/problems/movement-of-robots/description/
+   sol : a , a + b , a + b + c 
+         b , b + c 
+         c 
+
+2.  Finding the no of subarray having sum exact k 
+3.  Finding the no of subarray having sum equal to 0 (replace k with 0) 
+4.  Finding the no of subarray where sum of all eles of subarray is divisible by k (sum % k == 0)
+5.  Finding the no of subarray where sum % k == rem (sum = sum of all eles of subarray) 
+
+6.  In contribution technique basically you have to find the contribution of individual ele for all subarray (or for all possible subset)
+7.  In general finding all possible subarrys problems or finding all possible pairs problem generally we use two-pointer technique 
+    we stay at one position and try to find answer for all the subarray if we include that current ele in my subarray.
+
+8.  Finding maximum or minimum element of subarray of size k. (use multiset or priority queue to solve this or u can use stack or queue to
+    solve this as well).
+
+9.  Maximize the window size or minimize the window size related problem.
